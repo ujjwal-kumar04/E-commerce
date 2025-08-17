@@ -1,0 +1,45 @@
+
+.feature-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.feature-header {
+  display: flex;
+gap:30px;
+  align-items: center;
+  padding: 10px;
+}
+.feature-header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.feature-header h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: black;
+  display: inline-block;
+  border-bottom: 4px solid #fdd835;
+}
+
+.product-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px; /* Equal space between cards */
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.product-card {
+  flex: 1 1 calc(25% - 20px); /* 4 cards per row with 20px gap */
+  min-width: 250px;
+  max-width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Remove default margin from body if any */
+
